@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+    <link rel="stylesheet" href="./style/main.css">
+</head>
+
+<body>
+    <div>
+        <div>
+            <span class="cost-value"></span>
+            <span class="name-valute"></span>
+        </div>
+        <div class="container">
+            <h1 class="title">Currency Converter</h1>
+            <form id="form-currency">
+                <input type="text" value="1" id="amount">
+                <input class="datalist" list="from" /></label>
+                <datalist id="from">
+                </datalist>
+                <input class="datalist" list="to" /></label>
+                <datalist id="to">
+                </datalist>
+                <input type="submit" value="Convert Me">
+            </form>
+            <div class="results">
+                <input id="result" type="text" disabled>
+                <input id="symbol" type="text" value="EUR" disabled>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+
+</html>
